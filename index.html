@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Social Media</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>My FaceBook page</header>
+
+  <div class="profile">
+    <h3>Aniket kumar</h3>
+    <p class="follower-bar">Followers: <span id="followerCount">120</span> | Following: <span id="followingCount">150</span></p>
+    <button onclick="followUser()">Follow</button>
+  </div>
+
+  <div class="container">
+    <h2>Create Post</h2>
+    <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+    <button onclick="addPost()">Post</button>
+
+    <h2>News Feed</h2>
+    <div id="feed"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
